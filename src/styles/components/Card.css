@@ -1,0 +1,146 @@
+.card-container {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.5);
+}
+
+.user-section {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-section h2,
+h3 {
+  margin: 0;
+}
+
+.username {
+  color: #000000;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.nickname {
+  color: #999999;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 40px;
+  margin: 0 10px 0 5px;
+}
+
+.user-info-wrapper {
+  margin-left: 0;
+  width: 40%;
+}
+
+.more-button {
+  width: 70%;
+  text-align: right;
+  text-decoration: none;
+}
+
+.more-icon-container {
+  display: inline-block; /* Cambiamos a 'inline-block' para eliminar el espacio extra */
+  transition: transform 0.2s ease-in-out; /* Efecto de transición al hacer hover */
+}
+
+.more-icon-container:hover {
+  transform: scale(1.1); /* Escala ligeramente el icono al hacer hover */
+}
+.content-section {
+  width: 100%;
+  margin: 0;
+}
+
+.content-image-wrapper {
+  margin: 0;
+}
+
+.content-image {
+  width: 100%;
+  margin: 0;
+}
+
+.content-description {
+  text-align: left;
+  margin: 0 10px;
+  font-size: 0.9rem;
+}
+
+.interaction-section {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  margin: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.interaction-buttons {
+  display: flex;
+  width: 80%; /* Ajusta el ancho para controlar la separación */
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; /* Centra los botones horizontalmente */
+}
+
+.interaction-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px; /* Ajusta el espacio interno de los botones */
+  outline: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.count {
+  margin-left: 5px; /* Ajusta el espacio entre el icono y el conteo */
+  font-size: 0.8rem; /* Tamaño del número */
+  color: #555; /* Color del número */
+}
+
+.red-heart {
+  color: #ed4956;
+}
+
+/* Smaller mobile screens */
+@media screen and (min-width: 520px) {
+  .card-container {
+    width: 400px;
+  }
+}
+
+/* Tablet and larger screens */
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 400px;
+  }
+}
+
+/* Desktop screens */
+@media screen and (min-width: 1024px) {
+  .card-container {
+    width: 400px;
+  }
+}
+
+/* Larger desktop screens */
+@media screen and (min-width: 1300px) {
+  .card-container {
+    width: 400px;
+  }
+}
